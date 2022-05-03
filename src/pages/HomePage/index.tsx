@@ -8,7 +8,7 @@ const HomePage: Component = () => {
   const [localText, setLocalText] = createSignal<string>('')
 
   return (
-    <div class={stiches.homeContainer()}>
+    <div class={stiches.home()}>
       <span>Input estado local:</span>
       <input
         type="text"

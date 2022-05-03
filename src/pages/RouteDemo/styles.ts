@@ -1,5 +1,5 @@
 import { css } from '@stitches/core'
 
-export const home = css({
+export const routeDemo = css({
   padding: '56px',
 })
