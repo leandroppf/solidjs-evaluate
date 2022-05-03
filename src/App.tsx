@@ -1,5 +1,6 @@
 import type { Component } from 'solid-js'
 
+import GlobalStateDemo from './components/GlobalStateDemo'
 import Navigator from './components/Navigator'
 import Routes from './routes'
 
@@ -11,6 +12,7 @@ const App: Component = () => {
   return (
     <>
       <Navigator />
+      <GlobalStateDemo />
       <Routes />
     </>
   )
